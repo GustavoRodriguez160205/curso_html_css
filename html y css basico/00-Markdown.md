@@ -1,13 +1,19 @@
-# Curso de HTML - Resumen
+# 📘 Curso de HTML - Resumen
 
-## Estructura de una Etiqueta (45:48)
-- Una etiqueta HTML se compone de:
-  - Etiqueta de apertura (`<etiqueta>`)
-  - Contenido
-  - Etiqueta de cierre (`</etiqueta>`)
-- Algunas etiquetas no requieren cierre (`<img>`, `<br>`, `<input>`).
+## 🏷️ Estructura de una Etiqueta (45:48)
+Una etiqueta HTML se compone de:
+- **Etiqueta de apertura**: `<etiqueta>`
+- **Contenido**
+- **Etiqueta de cierre**: `</etiqueta>`
 
-## Estructura de una Página Web (51:58)
+Algunas etiquetas no requieren cierre:
+- `<img>`
+- `<br>`
+- `<input>`
+
+---
+
+## 🌐 Estructura de una Página Web (51:58)
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -22,9 +28,11 @@
 </html>
 ```
 
-## Párrafos y Encabezados (1:00:09)
-- Encabezados: `<h1>` a `<h6>` (de mayor a menor importancia).
-- Párrafos: `<p>` para textos.
+---
+
+## 📝 Párrafos y Encabezados (1:00:09)
+- **Encabezados**: `<h1>` a `<h6>` (de mayor a menor importancia).
+- **Párrafos**: `<p>`
 
 ```html
 <h1>Título Principal</h1>
@@ -32,9 +40,12 @@
 <p>Este es un párrafo con contenido.</p>
 ```
 
-## Listas (1:10:45)
-- Listas ordenadas (`<ol>`) y no ordenadas (`<ul>`).
-- Elementos de lista: `<li>`.
+---
+
+## 📋 Listas (1:10:45)
+- **Listas ordenadas** (`<ol>`)
+- **Listas no ordenadas** (`<ul>`)
+- **Elementos de lista** (`<li>`)
 
 ```html
 <ul>
@@ -48,24 +59,35 @@
 </ol>
 ```
 
-## Enlaces (Básico) (1:26:09)
-- Se usa `<a>` con el atributo `href` para definir un enlace.
+---
+
+## 🔗 Enlaces (1:26:09)
+Se usa la etiqueta `<a>` con el atributo `href` para definir un enlace.
 
 ```html
 <a href="https://www.google.com" target="_blank">Ir a Google</a>
 ```
 
-## Imágenes y Rutas (1:41:40)
-- Se usa `<img>` con los atributos `src` y `alt`.
-- Rutas absolutas y relativas.
+---
+
+## 🖼️ Imágenes y Rutas (1:41:40)
+Se usa `<img>` con los atributos:
+- **`src`** → Fuente de la imagen
+- **`alt`** → Descripción de la imagen
 
 ```html
 <img src="imagen.jpg" alt="Descripción de la imagen">
 ```
 
-## Formularios (1:50:00)
-- Se usa `<form>` para recopilar información del usuario.
-- Controles básicos: `<input>`, `<textarea>`, `<button>`.
+📌 **Rutas**:
+- **Absolutas**: URL completa (`https://...`).
+- **Relativas**: Ruta dentro del proyecto (`/carpeta/imagen.jpg`).
+
+---
+
+## 📑 Formularios (1:50:00)
+Se usa `<form>` para recopilar información del usuario.
+- **Elementos básicos**: `<input>`, `<textarea>`, `<button>`
 
 ```html
 <form action="/procesar" method="post">
@@ -73,3 +95,7 @@
     <input type="text" id="nombre" name="nombre" required>
     <button type="submit">Enviar</button>
 </form>
+```
+
+
+
