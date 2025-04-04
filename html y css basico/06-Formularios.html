@@ -1,31 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" conent="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
 </head>
 <body>
 
-    <!-- Etiqueta de bloque que construye un formulario. 
-    (required: se usa para decir que son obligatorios. Atributo de funcionalidad) 
-    (name: identificador de los inputs. Atributo de configuración interna)
-    (placeholder: escribe un pequeño texto) 
-    (value: es lo que recibe el servidor)  -->
-
+    <h1>Formulario Básico</h1>
 
     <form>
 
-         <input type="text"     placeholder="Nombre" name="username">        <!-- Campo de texto -->
-         <input type="submit"   placeholder="Enviar">       <!-- Boton de enviar -->
-         <input type="email"    placeholder="Correo" name="contraseña">       <!-- Campo de texto para correo-->
-         <input type="password" placeholder="Contraseña" name="password"> <!-- Campo de texto de contraseña-->   
-         <input type="radio">    <!-- Boton-->
-         <input type="checkbox"> <!-- Casilla de verificación --> 
-         <input type="file">     <!-- Campo que nos permite subir archivos-->
-         <input type="date">     <!-- Campo para la fecha-->
-   
-     </form>
+        <!-- Campo para escribir el nombre -->
+        <input type="text" placeholder="Nombre" name="nombre" required>
+
+        <!-- Campo para escribir el correo -->
+        <input type="email" placeholder="Correo" name="correo" required>
+
+        <!-- Campo para escribir la contraseña -->
+        <input type="password" placeholder="Contraseña" name="password">
+
+        <!-- Botones para elegir una sola opción -->
+        <input type="radio" name="opcion"> Opción 1
+        <input type="radio" name="opcion"> Opción 2
+
+        <!-- Casilla para marcar -->
+        <input type="checkbox"> Acepto los términos
+
+        <!-- Subir un archivo -->
+        <input type="file">
+
+        <!-- Seleccionar una fecha -->
+        <input type="date">
+
+        <!-- Botón para enviar -->
+        <input type="submit" value="Enviar">
+
+    </form>
     
+    <!-- Placeholder: Es un texto que aparece dentro del campo de entrada (input) antes de que el usuario escriba algo. Sirve como guia para el usuario -->
+    <!-- Name: Es el nombre del campo de entrada, y es lo que identifica ese dato cuando se envía el formulario. Es fundamental cuando querés procesar los datos del formulario en el backend (por ejemplo, en PHP, Python, Node, etc.). El valor que el usuario escriba se guarda con esa "etiqueta".-->
+    <!-- Required: 	Hace obligatorio completar el campo antes de enviar.-->
 </body>
-</html>t
+</html>
