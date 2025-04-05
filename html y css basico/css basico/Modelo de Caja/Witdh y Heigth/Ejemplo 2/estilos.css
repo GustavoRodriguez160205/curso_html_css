@@ -1,0 +1,9 @@
+input{
+    width: 90%; /* Definimos un porcentaje de la caja que la contiene*/
+}
+
+/* El input tendra un 90% de la caja contenedora*/
+
+form{
+    width: 300px;
+}

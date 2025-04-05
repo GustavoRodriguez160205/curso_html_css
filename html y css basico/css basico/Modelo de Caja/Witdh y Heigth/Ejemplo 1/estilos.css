@@ -1,0 +1,12 @@
+div {
+    background: red;   /* Color de fondo */
+    width: 300px;       /* Ancho del div */
+    height: 100px;     /* Alto del div */
+}
+
+
+
+h1 {
+    background-color: blue;
+    height: 300px; /* Alto del h1. Asi tapa todo lo del div*/
+}

@@ -1,16 +1,25 @@
-/* Propiedades de texto */
-
+/*  Propiedades de texto aplicadas a los párrafos */
 p {
-    color: red;                              /* Propiedad que modifica el color  */
-    font-family: Arial, Helvetica, sans-serif; /* Propiedad que modifica la fuente */   
-    font-size: 20px;                           /* Propiedad que modifica el tamaño de la fuente */
-    font-weight: bold;                         /* Propiedad que modifica el grosor de la fuente. (bold = 700,  coloca texto en negrita) (bolder, va un paso más adelante)  */
-    font-style: italic;                        /* Propiedad que modifica el estilo de la fuente. (italic = cursiva) (oblique = inclina la tipografia) */                             
-    text-align: justify;                       /* Propiedad que modifica la alineación del texto. (left, right, center, justify) */                             
-    text-decoration: ;                         /* Propiedad que modifica la decoración del texto. */   
-}                             
+    color: red;                                /* Cambia el color del texto */
+    font-family: Arial, Helvetica, sans-serif; /* Define la fuente del texto, con alternativas de respaldo */
+    font-size: 20px;                           /* Ajusta el tamaño del texto */
+    font-weight: bold;                         /* Grosor del texto: 'bold' equivale a 700 */
+    font-style: italic;                        /* Aplica estilo cursiva */
+    text-align: justify;                       /* Alinea el texto en bloques justificados */
+    text-decoration: line-through;             /* Tacha el texto */
+    line-height: 2;                            /* Altura de línea (espacio entre líneas), no el tamaño de letra */
+    letter-spacing: 10px;                      /* Espacio entre letras */
+    text-transform: uppercase;                 /* Convierte todo el texto a MAYÚSCULAS */
+}
 
-minuto 2:37:14
+/*  Estilo para los enlaces */
+
+a {
+    text-decoration: none;                     /* Elimina el subrayado predeterminado */
+}
+
+
+/*  Estilo para los títulos h1 */
 h1 {
-    text-align: center;
+    text-align: center;                        /* Centra el título horizontalmente */
 }
