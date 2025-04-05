@@ -1,0 +1,16 @@
+/* Propiedades de texto */
+
+p {
+    color: red;                              /* Propiedad que modifica el color  */
+    font-family: Arial, Helvetica, sans-serif; /* Propiedad que modifica la fuente */   
+    font-size: 20px;                           /* Propiedad que modifica el tamaño de la fuente */
+    font-weight: bold;                         /* Propiedad que modifica el grosor de la fuente. (bold = 700,  coloca texto en negrita) (bolder, va un paso más adelante)  */
+    font-style: italic;                        /* Propiedad que modifica el estilo de la fuente. (italic = cursiva) (oblique = inclina la tipografia) */                             
+    text-align: justify;                       /* Propiedad que modifica la alineación del texto. (left, right, center, justify) */                             
+    text-decoration: ;                         /* Propiedad que modifica la decoración del texto. */   
+}                             
+
+minuto 2:37:14
+h1 {
+    text-align: center;
+}

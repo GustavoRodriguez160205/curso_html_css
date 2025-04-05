@@ -1,0 +1,27 @@
+/* Selectores y Propiedades de Texto */
+
+/*1. Selector por elemento*/
+
+h1{
+    color: blueviolet;
+}
+
+p{
+    color: orange;
+}
+
+li{
+    color: black;
+}
+
+/*2. Selector por clase */
+
+.Ingrediente-Faltante{
+    color: red;
+}
+
+/*3. Selector por id */
+
+#Ingrediente-Secreto{
+    color: blue;
+}
